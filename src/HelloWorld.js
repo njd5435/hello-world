@@ -32,7 +32,7 @@ export class HelloWorld extends LitElement {
     this.counter += 1;
   }
   __decrease(){
-    if(this.counter>0{this.counter-=1;}
+    if(this.counter>0){this.counter-=1;}
       else{this.counter=0;};
   }
   //render is a callback in lit that will actually render the element in question
